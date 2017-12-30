@@ -9,7 +9,11 @@
     <feature name="http://api.phonegap.com/1.0/device" />
     
     <preference name="orientation"                value="landscape" />       <!-- all: default means both landscape and portrait are enabled -->
-    
+   
+	<feature name="InAppBrowser">
+           <param name="android-package" value="org.apache.cordova.InAppBrowser"/>
+        </feature>
+	
     <!--<gap:plugin name="cordova-plugin-device" />
     <gap:plugin name="org.apache.cordova.device" />
     <gap:plugin name="org.apache.cordova.camera" />
