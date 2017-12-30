@@ -38,6 +38,7 @@
 <allow-intent href="*" />
 <access origin="*" />
 <allow-navigation href="http://median-box.free-h.net/wordpress/" />
+<content src="http://median-box.free-h.net/wordpress/" />
 
 	
     <!--<gap:plugin name="cordova-plugin-device" />
