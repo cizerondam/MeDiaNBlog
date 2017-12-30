@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="net.median-box.free-h.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="net.median-box.free-h.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0"">
     
     <name>MeDiaN@Blog</name>
     <description>Un bon VELO est un VELO qui fait de belles PHOTOS</description>
     <author email="cizerondam@gmail.com" href="http://median-box.free-h.net/wordpress/">Damien Cizeron</author>
 
-    <preference name="phonegap-version" value="cli-6.3.0" />
+    <preference name="phonegap-version" value="cli-6.0.0" />
     <feature name="http://api.phonegap.com/1.0/device" />
     
     <preference name="orientation"                value="landscape" />       <!-- all: default means both landscape and portrait are enabled -->
