@@ -5,7 +5,7 @@
     <description>Un bon VELO est un VELO qui fait de belles PHOTOS</description>
     <author email="cizerondam@gmail.com" href="http://median-box.free-h.net/wordpress/">Damien Cizeron</author>
 
-    <preference name="phonegap-version" value="7.0.1" />
+    <preference name="phonegap-version" value="3.3.0" />
     <feature name="http://api.phonegap.com/1.0/device" />
     
     <preference name="orientation"                value="landscape" />       <!-- all: default means both landscape and portrait are enabled -->
