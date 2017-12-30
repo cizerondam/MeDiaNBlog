@@ -10,9 +10,38 @@
     
     <preference name="orientation"                value="landscape" />       <!-- all: default means both landscape and portrait are enabled -->
    
-	<feature name="InAppBrowser">
-           <param name="android-package" value="org.apache.cordova.InAppBrowser"/>
-        </feature>
+
+<!--
+<feature name="http://api.phonegap.com/1.0/network" />
+<feature name="http://api.phonegap.com/1.0/camera" />
+<feature name="http://api.phonegap.com/1.0/notification" />
+<feature name="http://api.phonegap.com/1.0/geolocation" />
+<feature name="http://api.phonegap.com/1.0/media" />
+<feature name="http://api.phonegap.com/1.0/contacts" />
+<feature name="http://api.phonegap.com/1.0/file" />
+<feature name="http://api.phonegap.com/1.0/battery" />
+<feature name="http://api.phonegap.com/1.0/device" />
+-->
+
+  <plugin name="cordova-plugin-camera" spec="0.3.6" source="npm" />
+  <plugin name="cordova-plugin-media-capture" spec="1.0.1" source="npm" />
+  <plugin name="cordova-plugin-device" source="npm" />
+  <plugin name="cordova-plugin-device-orientation" source="npm" />
+  <plugin name="cordova-plugin-device-motion" source="npm" />
+  <plugin name="cordova-plugin-file-transfer" source="npm" />
+  <plugin name="cordova-plugin-media" spec="0.2.16" source="npm" />
+  <plugin name="cordova-plugin-inappbrowser"  source="npm" />
+  <plugin name="cordova-plugin-globalization"  source="npm"/>
+  <plugin name="cordova-plugin-dialogs" source="npm" />
+  <plugin name="cordova-plugin-splashscreen" source="npm" />
+  <plugin name="cordova-plugin-vibration" spec="1.2.0" source="npm" />
+  <plugin name="cordova-plugin-whitelist" source="npm" />
+
+<allow-navigation href="*" />
+<allow-intent href="*" />
+<access origin="*" />
+<allow-navigation href="http://median-box.free-h.net/wordpress/" />
+
 	
     <!--<gap:plugin name="cordova-plugin-device" />
     <gap:plugin name="org.apache.cordova.device" />
@@ -52,6 +81,8 @@
     <gap:splash src="res/screen/ios/Default@2x.png" gap:platform="ios" width="680" height="960" />
     <gap:splash src="res/screen/ios/Deafult-568h-2x.png" gap:platform="ios" width="640" height="1136" />
 
+	<!--
     <content src="http://median-box.free-h.net/wordpress/" />
     <access origin="*" subdomains="true" />
+-->
 </widget>
